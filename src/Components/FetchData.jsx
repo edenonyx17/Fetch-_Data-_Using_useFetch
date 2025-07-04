@@ -12,7 +12,7 @@ const FetchData = () => {
         {data && data.map((e, index) => (
             <li className='list_data' key={index}>
                 <h3>{e.name}</h3>
-                <img src='e.image'></img>
+                <img src={e.image}></img>
                 <p><strong>Importance: </strong>{e.importance}</p>
                 <p><strong>Benefits: </strong>{e.benefits}</p>
                 <p><strong>Time to eat: </strong>{e.best_time_to_intake}</p>
